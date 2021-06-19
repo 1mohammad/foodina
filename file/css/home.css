@@ -1,0 +1,453 @@
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.HomeSlider .customNP {
+    position: absolute;
+    z-index: 10;
+    bottom: 30px;
+    max-width: 1200px;
+    padding: 0 15px;
+    text-align: left;
+    margin: 0 auto;
+    left: 40px;
+    right: 0px;
+}
+
+.HomeSlider .OSliderContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 3;
+    color: #fff;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.HomeSlider .OSliderContent .desc {
+    z-index: 2;
+    font-size: 30px;
+    color: #d6d6d6;
+    font-weight: 700;
+    max-width: 800px;
+    line-height: 50px;
+}
+
+.HomeSlider {
+    position: relative;
+}
+
+.HomeSlider .swiper-slide {
+    background-color: black;
+}
+
+.HomeSlider .swiper-slide img {
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.HomeSlider .swiper-pagination-bullets {
+    max-width: 1200px;
+    padding: 0 15px;
+    text-align: right;
+    margin: 0 auto;
+    right: 0px;
+    bottom: 30px !important;
+}
+
+.swiper-pagination-bullet {
+    background: #fff !important;
+    opacity: 0.4 !important;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #ed4f4f !important;
+}
+
+.HomeSlider .customNP button {
+    background-color: transparent;
+    border: 1px solid #d8d8d8;
+    opacity: 0.7;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+    text-emphasis: center;
+    line-break: 24px;
+    padding: 0px;
+    transition: 0.2s ease all;
+    cursor: pointer;
+    outline: none;
+}
+
+.HomeSlider .customNP button i {
+    height: 24px;
+    line-height: 24px;
+    display: block;
+    font-size: 12px;
+    color: #d8d8d8;
+    opacity: 0.7;
+}
+
+.HomeSlider .customNP button:hover:not(.swiper-button-disabled) {
+    background-color: #ed4f4f;
+    color: #fff;
+    border-color: #ed4f4f;
+}
+
+.homeswiper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( 135deg, #000 0, rgba(0, 0, 0, 0.66) 45%, rgba(0, 0, 0, 0.61) 100%);
+    overflow: hidden;
+}
+
+.btns {
+    position: relative;
+    z-index: 2;
+}
+
+.btns .menu {
+    display: block;
+    padding: 0 44px;
+    line-height: 50px;
+    border-radius: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+.btns .menu:hover {
+    background-color: #a92724;
+    color: #fff !important;
+}
+
+.menu {
+    color: #fff;
+    background-color: #e53935;
+}
+
+.own {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #fff;
+}
+
+button:focus {
+    outline: none !important;
+    opacity: 0.85;
+}
+
+.abouttitle {
+    color: #ed4f4f;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.HomeAbout {
+    padding: 100px 0;
+    background-image: url(../img/aboutRight.5a8aff8b4a03237a3a35.png), url(../img/aboutLeft.2bdf666bb879239bf9ce.png);
+    background-position: 98% 0, 2% 0;
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    position: relative;
+    z-index: 10;
+}
+
+.aboutdesk {
+    margin-top: 38px;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.mybtn {
+    padding: 0 44px;
+    line-height: 50px;
+    border-radius: 50px;
+    margin: 0 10px;
+    font-family: 'roboto';
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background-color: #ed4f4f !important;
+    color: #fff !important;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 50px;
+}
+
+.bestday {
+    padding: 100px 30px;
+    background-image: url(../img/backgrundBest.4f588e05d5737b75c51b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.bestday .title {
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.BTNS .mybtns {
+    padding: 0 25px;
+    line-height: 40px;
+    border-radius: 50px;
+    margin: 0 10px;
+    font-family: 'roboto';
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.BTNS {
+    padding-bottom: 20px;
+}
+
+.BTNS .yellow {
+    background-color: #fbaa27 !important;
+    color: #12040d !important;
+}
+
+.BTNS .more {
+    background-color: #fff !important;
+    color: #12040d !important;
+}
+
+.img img {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    display: block;
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.swiper-slide .cart {
+    margin: 20px 0 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px #000;
+    transition: 0.3s ease all;
+}
+
+.cartTitle {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    padding: 20px 0 0;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.Cart .cartPrice {
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.Cart {
+    margin: 20px 0 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px #000;
+    transition: 0.3s ease all;
+    cursor: -webkit-grab;
+}
+
+.Cart:hover {
+    background-color: #000 !important;
+}
+
+.bestday .customNP button:hover {
+    cursor: pointer;
+    background-color: #fbaa27;
+    border-color: #fbaa27;
+    color: #000;
+}
+
+.bestday .customNP button:hover i {
+    color: #000;
+}
+
+.bestday .customNP {
+    position: absolute;
+    right: 35px;
+    bottom: 73px;
+}
+
+.bestday .customNP button {
+    border: 1px solid #707070;
+    background-color: transparent;
+    outline: 0;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0;
+}
+
+.bestday .customNP button i {
+    color: #c5c5c5c7;
+    font-size: 13px;
+    position: relative;
+    bottom: 2px;
+}
+
+.bestday .swiper-pagination-bullet-active {
+    opacity: 1 !important;
+    background: #fbaa27 !important;
+}
+
+.bestday .swiper-pagination-bullets {
+    max-width: 1200px;
+    padding: 0 15px;
+    text-align: left;
+    margin: 0 auto;
+    right: 0px;
+    bottom: -5px !important;
+}
+
+.homeapp {
+    padding: 100px 30px;
+    background-image: url(../img/pattern.4cc886d1a461304eb0ea.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homeapp img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.appinfo img {
+    display: block;
+    width: 130px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+    padding-right: 30px;
+}
+
+.appinfo h2 {
+    color: #b41d24;
+    font-size: 34px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.appinfo {
+    place-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.AboutApp {
+    line-height: 35px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.android {
+    color: #5ca530;
+}
+
+.android i {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.IOS i {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.DlApp {
+    font-weight: 700;
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+.DlApp hr {
+    border: none;
+    height: 1px;
+    margin: 30px 0;
+    background: linear-gradient( to right, #c4c4c4 0, #a8a8a8 16%, #727272 51%, #a8a8a8 83%, #c4c4c4 100%);
+}
+
+.androiddl img {
+    height: unset;
+    width: unset;
+}
+
+.androiddl {
+    justify-content: center;
+}
+
+.WhyChooseUs .item1 img {
+    display: block;
+    width: 107px;
+    height: 120px;
+    margin: 30px auto 0;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.WhyChooseUs .item1 p {
+    margin: 40px auto 30px;
+    color: #630a0e;
+    font-size: 26px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.WhyChooseUs .item1 {
+    transition: 0.4s ease all;
+    height: 250px;
+}
+
+.WhyChooseUs .item1:hover {
+    box-shadow: 0 0 25px -4px rgba(157, 157, 157, 0.9);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.WhyChooseUs {
+    padding: 100px 0;
+}

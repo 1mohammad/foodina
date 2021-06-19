@@ -1,0 +1,273 @@
+* {
+    text-transform: capitalize;
+    text-align: right;
+}
+
+body {
+    font-family: IRANSans !important;
+}
+
+button,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: IRANSans !important;
+}
+
+.mynav {
+    transition: all 0.3s ease;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:active {
+    color: #ed4f4f !important;
+}
+
+.nav-item {
+    margin-right: 12px;
+}
+
+.nav-item a:hover {
+    opacity: 0.85;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.12);
+    border-radius: inherit;
+}
+
+.navbar {
+    padding: 0 !important;
+    position: relative;
+}
+
+.logo {
+    height: 58px;
+    margin: 10px 0;
+}
+
+.logo img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.mynav.fixedMenu {
+    background-color: rgb(0 0 0 / 90%);
+    box-shadow: 0px 5px 13px rgb(0 0 0 / 40%);
+}
+
+.mynav ul {
+    display: flex;
+    align-items: center;
+}
+
+.active {
+    border-bottom: 3px solid #ed4f4f;
+}
+
+.active a {
+    color: #ed4f4f !important;
+    opacity: 0.85;
+    text-decoration: none;
+    border-radius: inherit;
+}
+
+.bilakTop {
+    position: absolute;
+    bottom: -10px;
+    z-index: 1;
+}
+
+.bilakTop img {
+    display: block;
+    width: 100%;
+    height: 40px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.footer {
+    position: relative;
+    padding: 100px 0 0;
+    background-image: url(../img/footer-bg.b2b2e84c95c65ef56d62.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 37, 54, 0.8);
+    z-index: 1;
+}
+
+.logofooter {
+    display: block;
+    margin: 0 auto 50px;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    max-height: 100px;
+}
+
+.logofooter img {
+    width: 250px;
+    width: 250px;
+}
+
+.footerasli {
+    z-index: 2;
+    position: relative;
+    color: #bdbec4;
+}
+
+.footertitle {
+    margin: 30px 0;
+    font-size: 28px;
+}
+
+.links a {
+    color: #bdbec4;
+}
+
+.links a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.links a::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #bdbec4;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.SocialNetwork {
+    font-size: 25px;
+}
+
+.powerby {
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-top: 100px;
+    background-color: #ed4f4f;
+}
+
+.powerby p {
+    padding: 0;
+    margin: 17px 0;
+}
+
+.num a {
+    text-decoration: underline;
+    color: #bdbec4;
+}
+
+.num a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.powerby span a {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000 !important;
+}
+
+.copyright:hover {
+    cursor: pointer;
+    text-shadow: 0 1px 2px #fff;
+}
+
+.copyright {
+    color: #630a0e;
+}
+
+.SocialNetwork a {
+    color: #bdbec4;
+}
+
+.SocialNetwork a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.topheader img {
+    width: 100%;
+    height: 191px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.breadcramb {
+    margin: 30px 0;
+}
+
+.bread {
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    height: 45px;
+    padding: 0 15px;
+    background-color: #fff !important;
+}
+
+.breadcrumb-item a {
+    color: #000;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.breadcrumb-item.active {
+    color: #ed4f4f !important;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: '>' !important;
+}
+
+.bread:first-child i {
+    color: #876638;
+    font-size: 25px;
+    margin-right: 15px;
+}
