@@ -51,6 +51,12 @@ p {
     border-radius: inherit;
 }
 
+@media only screen and (max-width: 425px) {
+    .navbar {
+        justify-content: center !important;
+    }
+}
+
 .navbar {
     padding: 0 !important;
     position: relative;

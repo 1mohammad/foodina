@@ -36,6 +36,17 @@
     line-height: 40px;
 }
 
+@media only screen and (max-width: 425px) {
+    .HomeSlider .OSliderContent .title {
+        text-align: center;
+        font-size: 28px;
+    }
+    .HomeSlider .OSliderContent .desc {
+        text-align: center;
+        font-size: 14px !important;
+    }
+}
+
 .HomeSlider .OSliderContent .desc {
     z-index: 2;
     font-size: 30px;
@@ -410,12 +421,13 @@ button:focus {
 }
 
 .androiddl img {
-    height: unset;
-    width: unset;
+    height: 100%;
+    width: 100%;
 }
 
 .androiddl {
-    justify-content: center;
+    width: 160px;
+    margin: 0 auto;
 }
 
 .WhyChooseUs .item1 img {
