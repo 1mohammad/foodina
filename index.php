@@ -35,7 +35,7 @@
                         <div class="collapse navbar-collapse ">
                             <ul class="navbar-nav ">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="javascript:void(0);"> صفحه نخست </a>
+                                    <a class="nav-link" href="javascript:void(0);"> فودینا صفحه نخست </a>
                                 </li>
                                 <li class="nav-item ">
                                     <a class="nav-link" href="./menu"> منو </a>
