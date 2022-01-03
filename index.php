@@ -38,7 +38,7 @@
                                     <a class="nav-link" href="javascript:void(0);"> صفحه نخست </a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link" href="./menu"> منو </a>
+                                    <a class="nav-link" href="./menu"> منو محصولات </a>
                                 </li>
                             </ul>
                         </div>
