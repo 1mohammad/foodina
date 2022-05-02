@@ -82,6 +82,7 @@
         <div class="OSliderContent">
             <h1 class="title">سفارش آنلاین غذا فودینا</h1>
             <p class="desc"> بهترین کیفیت در سریع ترین زمان</p>
+            <p class="desc"> خیلی عالی</p>
             <div class="btns mt-4">
                 <a href="./menu" class="menu">
                     <span> سفارش از منو </span>
